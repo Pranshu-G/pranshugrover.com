@@ -7,15 +7,15 @@ function App() {
     <div className="App">
       <div className="container">
         <div className="centered-text">
-        Hi, my name is Pranshu Grover<br></br>
+        Hi, my name is Pranshu Grover<br/>
     I am a computer programmer and like working on 
-    <br>
-    </br>scalable, event-driven applications.
-    <br>
-    </br>
+    
+    <br/>scalable, event-driven applications.
+    
+    <br/>
     I like free and open-source culture and have contributed
       to a few open-source projects.
-      <br></br>
+      <br/>
       <div className='icon-container'>
       <a href='https://github.com/Pranshu-G'>
        <DiGithubBadge className='github-icon'/>
