@@ -1,5 +1,9 @@
+body{
+  background-color: #6cc49d;
+}
 .App {
   text-align: center;
+  
 }
 .container {
   display: flex;
@@ -10,6 +14,7 @@
 }
 
 .centered-text {
+ 
   text-align: center;
 }
 .App-logo {
