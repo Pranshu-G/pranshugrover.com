@@ -1,12 +1,33 @@
 .App {
   text-align: center;
 }
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; /* Adjust as needed */
+  font-size: 20px;
+}
 
+.centered-text {
+  text-align: center;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  height: 100px; /* Adjust as needed */
+}
+
+.github-icon {
+  font-size: 70px; /* Adjust the size */
+  color: #000000; /* Adjust the color */
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+
 import './App.css';
+import { DiGithubBadge } from "react-icons/di";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container">
+        <div className="centered-text">
+        Hi, my name is Pranshu Grover<br></br>
+    I am a computer programmer and like working on 
+    <br>
+    </br>scalable, event-driven applications.
+    <br>
+    </br>
+    I like free and open-source culture and have contributed
+      to a few open-source projects.
+      <br></br>
+      <div className='icon-container'>
+      <a href='https://github.com/Pranshu-G'>
+       <DiGithubBadge className='github-icon'/>
+      </a>
+      </div>
+        </div>
+        
+      </div>
     </div>
   );
 }
